@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerFXML.FXMLController_Lognin">
+   <children>
+      <ImageView fitHeight="400.0" fitWidth="608.0" layoutX="-1.0" layoutY="-1.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/1-1537949041.jpg" />
+         </image>
+      </ImageView>
+      <Pane layoutX="82.0" layoutY="61.0" opacity="0.78" prefHeight="253.0" prefWidth="230.0" style="-fx-background-color: #C8C0AD;">
+         <children>
+            <Label layoutX="83.0" layoutY="23.0" text="SIGN IN" textFill="#8a1414">
+               <font>
+                  <Font name="System Bold Italic" size="18.0" />
+               </font>
+            </Label>
+            <JFXTextField fx:id="user" labelFloat="true" layoutX="33.0" layoutY="78.0" prefHeight="25.0" prefWidth="171.0" promptText="Username">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXTextField>
+            <JFXPasswordField fx:id="password" labelFloat="true" layoutX="33.0" layoutY="127.0" prefHeight="25.0" prefWidth="171.0" promptText="Password">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXPasswordField>
+            <JFXButton fx:id="SIGNIN" layoutX="77.0" layoutY="182.0" prefHeight="25.0" prefWidth="83.0" style="-fx-background-color: #6b3737;" text="Enter" textFill="#e8cdcd">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXButton>
+            <Label fx:id="forgotPass" layoutX="129.0" layoutY="231.0" text="Forgot password?" underline="true" />
+         </children>
+      </Pane>
+      <Button fx:id="EXIT" layoutX="566.0" layoutY="2.0" mnemonicParsing="false" style="-fx-background-color: #6b3737;" text="Exit" textFill="#ebe2e2" />
+   </children>
+</AnchorPane>

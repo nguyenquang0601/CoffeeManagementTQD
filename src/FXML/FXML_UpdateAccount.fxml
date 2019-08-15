@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="327.0" prefWidth="386.0" style="-fx-background-color: #C8C0AD;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerFXML.FXMLController_updateAccount">
+   <children>
+      <Label layoutX="116.0" layoutY="14.0" prefHeight="25.0" prefWidth="175.0" text="Please enter update information" />
+      <JFXTextField fx:id="updateEmail" labelFloat="true" layoutX="68.0" layoutY="117.0" prefHeight="25.0" prefWidth="268.0" promptText="Email" />
+      <JFXPasswordField fx:id="updatePassword" layoutX="67.0" layoutY="176.0" prefHeight="25.0" prefWidth="268.0" promptText="Password" />
+      <JFXButton fx:id="btnUPDATE" layoutX="174.0" layoutY="242.0" style="-fx-background-color: #6b3737;" text="UPDATE" textFill="#fffdfd" />
+      <Label fx:id="updateUser" layoutX="157.0" layoutY="65.0" prefHeight="25.0" prefWidth="127.0" />
+      <Label layoutX="116.0" layoutY="65.0" prefHeight="25.0" prefWidth="41.0" text="User " />
+   </children>
+</AnchorPane>

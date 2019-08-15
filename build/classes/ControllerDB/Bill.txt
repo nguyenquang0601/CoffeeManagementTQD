@@ -1,0 +1,10 @@
+CREATE TABLE Bill
+(
+	id INT IDENTITY PRIMARY KEY,
+	idBill VARCHAR(10),
+	idMenu VARCHAR(10),
+	countOrder INT ,
+	price float,
+	FOREIGN KEY (idBill) REFERENCES dbo.BillAll(idBill),
+        FOREIGN KEY (idMenu) REFERENCES dbo.Menu(idMenu)
+)

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+
+<AnchorPane id="AnchorPane" prefHeight="144.0" prefWidth="323.0" style="-fx-background-color: #C8C0AD;" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/8" fx:controller="controllerFXML.FXML_CheckEmailController">
+   <children>
+      <JFXTextField  fx:id ="code" labelFloat="true" layoutX="79.0" layoutY="53.0" prefHeight="25.0" prefWidth="166.0" promptText="Code" />
+      <Label layoutX="118.0" layoutY="6.0" text="Input Code Here" />
+      <JFXButton fx:id="btnCheck" layoutX="136.0" layoutY="97.0" style="-fx-background-color: #6b3737;" text="Done" textFill="#f2ecec" />
+   </children>
+</AnchorPane>

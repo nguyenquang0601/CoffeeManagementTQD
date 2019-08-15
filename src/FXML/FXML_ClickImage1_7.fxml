@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="476.0" prefWidth="711.0" style="-fx-background-color: #FFFF66;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerFXML.FXML_Image1_7">
+   <children>
+      <Button fx:id="Exit1_7" layoutX="322.0" layoutY="429.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="88.0" text="Exit" />
+      <Text fill="#f20707" layoutX="517.0" layoutY="297.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hurry up......">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="77.0" fitWidth="239.0" layoutX="382.0" layoutY="320.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/Welcome1.gif" />
+         </image>
+      </ImageView>
+      <Text fill="#6f6a4c" layoutX="346.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* Sale              off on Frappuccino products today, quickly come to you and your loved ones to enjoy cool Frappuccino glasses this summer." wrappingWidth="364.53125">
+         <font>
+            <Font name="System Italic" size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="126.0" layoutY="300.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Frappuccino" wrappingWidth="144.0">
+         <font>
+            <Font name=".VnArialH Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="167.0" fitWidth="239.0" layoutX="58.0" layoutY="105.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/KM1.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="94.0" fitWidth="77.0" layoutX="187.0" layoutY="6.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/hot.gif" />
+         </image>
+      </ImageView>
+      <Label layoutX="264.0" layoutY="18.0" text="Big promotion">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Text fill="#dd1c1c" layoutX="410.0" layoutY="142.0" strokeType="OUTSIDE" strokeWidth="0.0" text="50%">
+         <font>
+            <Font size="34.0" />
+         </font></Text>
+   </children>
+</AnchorPane>

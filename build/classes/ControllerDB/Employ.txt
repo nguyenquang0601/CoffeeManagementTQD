@@ -1,0 +1,13 @@
+CREATE TABLE Employ
+(
+	idEmploy VARCHAR(10) PRIMARY KEY,
+	name NVARCHAR(20)  DEFAULT N'NO NAME',
+	age DATE ,
+	gender bit,     
+        idCard varchar(12),
+	phoneNumber VARCHAR(11),
+	address NVARCHAR(30),
+	position NVARCHAR(20) ,
+        active bit
+	
+)

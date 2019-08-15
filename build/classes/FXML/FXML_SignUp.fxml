@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.image.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="553.0" prefWidth="739.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerFXML.FXMLController_Signup">
+    <children>
+        <ImageView fitHeight="554.0" fitWidth="739.0" layoutX="-1.0" pickOnBounds="true" AnchorPane.bottomAnchor="-26.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="0.0" AnchorPane.topAnchor="0.0">
+            <image>
+                <Image url="@../images/1-1537949041.jpg" />
+            </image>
+        </ImageView>
+        <Pane layoutX="88.0" layoutY="26.0" opacity="0.78" prefHeight="505.0" prefWidth="282.0" style="-fx-background-color: #C8C0AD;">
+            <children>
+                <Label layoutX="106.0" layoutY="21.0" text="SIGN UP" textFill="#6b3737">
+                    <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                    </font>
+                </Label>
+                <JFXTextField fx:id="account" focusColor="#1f47a4" labelFloat="true" layoutX="52.0" layoutY="54.0" prefHeight="25.0" prefWidth="194.0" promptText="UserName" unFocusColor="#140101">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </JFXTextField>
+                <JFXPasswordField fx:id="password" labelFloat="true" layoutX="52.0" layoutY="100.0" prefHeight="25.0" prefWidth="194.0" promptText="Password">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </JFXPasswordField>
+                <JFXTextField fx:id="name" labelFloat="true" layoutX="52.0" layoutY="147.0" prefHeight="25.0" prefWidth="195.0" promptText="Name">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </JFXTextField>
+                <JFXTextField fx:id="phonenumber" labelFloat="true" layoutX="50.0" layoutY="193.0" prefHeight="25.0" prefWidth="197.0" promptText="Phone Numbers">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </JFXTextField>
+            <JFXTextField fx:id="idCard" labelFloat="true" layoutX="51.0" layoutY="238.0" prefHeight="25.0" prefWidth="196.0" promptText="ID CARD,/PEOPLE'S CERTIFICATE">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </JFXTextField>
+                <JFXTextField fx:id="email" labelFloat="true" layoutX="51.0" layoutY="292.0" prefHeight="25.0" prefWidth="196.0" promptText="Email">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </JFXTextField>
+                <DatePicker fx:id="age" layoutX="50.0" layoutY="332.0" prefHeight="30.0" prefWidth="197.0" promptText="Birthday" />
+                <CheckBox fx:id="male" layoutX="118.0" layoutY="380.0" mnemonicParsing="false" text="Male" />
+                <CheckBox fx:id="female" layoutX="183.0" layoutY="380.0" mnemonicParsing="false" text="Female" />
+                <Label layoutX="52.0" layoutY="379.0" text="Gender">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </Label>
+                <JFXTextField fx:id="address" labelFloat="true" layoutX="51.0" layoutY="416.0" prefHeight="25.0" prefWidth="196.0" promptText="Address">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </JFXTextField>
+                <JFXButton fx:id="SIGNUP" buttonType="RAISED" layoutX="106.0" layoutY="461.0" prefHeight="25.0" prefWidth="85.0" style="-fx-background-color: #6b3737;" text="Regester" textFill="WHITE">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </JFXButton>
+            </children>
+        </Pane>
+        <Button fx:id="EXIT" layoutX="674.0" layoutY="2.0" mnemonicParsing="false" style="-fx-background-color: #6b3737;" text="Exit" textFill="#f5ecec" AnchorPane.rightAnchor="5.0" AnchorPane.topAnchor="5.0" />
+        <Pane layoutX="400.0" layoutY="26.0" opacity="0.78" prefHeight="236.0" prefWidth="282.0" style="-fx-background-color: #C8C0AD;">
+            <children>
+                <Label layoutX="69.0" layoutY="26.0" text="Connect SQLServer" textFill="#6b3737">
+                    <font>
+                        <Font name="System Bold Italic" size="18.0" />
+                    </font>
+                </Label>
+                <JFXTextField fx:id="localhost" focusColor="#1f47a4" labelFloat="true" layoutX="51.0" layoutY="63.0" prefHeight="25.0" prefWidth="194.0" text="jdbc:sqlserver://localhost;" unFocusColor="#140101">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </JFXTextField>
+                <JFXTextField fx:id="UserDB" labelFloat="true" layoutX="51.0" layoutY="112.0" prefHeight="25.0" prefWidth="195.0" promptText="User Database" text="sa">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </JFXTextField>
+                <JFXPasswordField fx:id="PassDB" labelFloat="true" layoutX="51.0" layoutY="156.0" prefHeight="25.0" prefWidth="194.0" promptText="Password" text="123456">
+                    <font>
+                        <Font size="14.0" />
+                    </font>
+                </JFXPasswordField>
+            </children>
+        </Pane>
+    </children>
+</AnchorPane>

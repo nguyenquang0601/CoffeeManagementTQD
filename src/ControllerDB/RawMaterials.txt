@@ -1,0 +1,10 @@
+CREATE TABLE RawMaterials
+(
+	idIngredients VARCHAR(10)  PRIMARY KEY,
+        idMenu VARCHAR(10),
+	name VARCHAR(20) ,
+	countInput int,
+	price FLOAT,
+	DateInput DATE,
+        FOREIGN KEY (idMenu) REFERENCES dbo.Menu(idMenu)
+)

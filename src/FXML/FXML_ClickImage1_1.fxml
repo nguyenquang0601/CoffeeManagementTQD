@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="467.0" prefWidth="662.0" style="-fx-background-color: #DCDCDC;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerFXML.FXML_Image1_1">
+   <children>
+      <Label layoutX="258.0" layoutY="25.0" text="New product">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Button fx:id="Exit1_1" layoutX="301.0" layoutY="428.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="103.0" text="Exit" />
+      <ImageView fitHeight="77.0" fitWidth="135.0" layoutX="147.0" layoutY="14.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/new-things.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="159.0" fitWidth="287.0" layoutX="14.0" layoutY="107.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/Image1.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="123.0" layoutY="290.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Frappuccino" wrappingWidth="144.0">
+         <font>
+            <Font name=".VnArialH Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text layoutX="316.0" layoutY="130.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*  Deliciously crafted drinks and great flavored food. The secret to a better life." wrappingWidth="364.53125">
+         <font>
+            <Font name="System Italic" size="21.0" />
+         </font>
+      </Text>
+      <Text layoutX="350.0" layoutY="192.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Excellent coffee from all over the world. Drinks are crafted for you to explore and enjoy. We look forward to bringing you these products." wrappingWidth="296.5546875">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="103.0" fitWidth="239.0" layoutX="232.0" layoutY="319.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/Welcome1.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>

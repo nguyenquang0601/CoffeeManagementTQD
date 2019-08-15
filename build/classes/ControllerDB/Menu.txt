@@ -1,0 +1,10 @@
+CREATE TABLE Menu
+(
+	idMenu VARCHAR(10) PRIMARY KEY,
+	idMenuCategory VARCHAR(10) ,
+	nameFood NVARCHAR(100)  DEFAULT N'NO NAME',
+	promotion FLOAT DEFAULT 0,
+	price FLOAT  DEFAULT 0,
+        countExcess int,
+	FOREIGN KEY (idMenuCategory) REFERENCES dbo.MenuCategory(idMenuCategory)
+)

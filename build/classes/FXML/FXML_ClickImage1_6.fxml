@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" prefHeight="491.0" prefWidth="701.0" style="-fx-background-color: #dc463f;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerFXML.FXML_Image1_6">
+   <children>
+      <Button fx:id="Exit1_6" layoutX="332.0" layoutY="437.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="76.0" text="Exit" />
+      <Label layoutX="281.0" layoutY="19.0" text="Big promotion">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="94.0" fitWidth="77.0" layoutX="198.0" layoutY="8.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/hot.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="198.0" fitWidth="239.0" layoutX="67.0" layoutY="109.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/ImageKemKM.jpg" />
+         </image>
+      </ImageView>
+      <Text layoutX="143.0" layoutY="332.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Frappuccino" wrappingWidth="144.0">
+         <font>
+            <Font name=".VnArialH Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#1e1e1d" layoutX="336.0" layoutY="132.0" strokeType="OUTSIDE" strokeWidth="0.0" text="* Sale 50% off on Frappuccino products today, quickly come to you and your loved ones to enjoy cool Frappuccino glasses this summer." wrappingWidth="364.53125">
+         <font>
+            <Font name="System Italic" size="21.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="103.0" fitWidth="239.0" layoutX="399.0" layoutY="319.0" pickOnBounds="true">
+         <image>
+            <Image url="@../images/Welcome1.gif" />
+         </image>
+      </ImageView>
+      <Text fill="#ebe8e8" layoutX="507.0" layoutY="287.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Hurry up......">
+         <font>
+            <Font name="System Bold Italic" size="24.0" />
+         </font>
+      </Text>
+   </children>
+</AnchorPane>

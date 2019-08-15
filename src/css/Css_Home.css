@@ -1,0 +1,68 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 4, 2019, 6:39:32 PM
+    Author     : BoomIT wait MTV
+*/
+
+.btnButton:hover{
+    /*-fx-background-color: #B29999;*/
+    -fx-text-fill: red;
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.1;
+}
+.btnLogo:hover{
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.1;
+}
+.btnButon:pressed {
+        -fx-scale-y: 0.9;
+        -fx-scale-x: 0.9;
+}
+.btnImage1:hover{
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.1;
+}
+.btnImage2:hover{
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.1;
+}
+.btnImage3:hover{
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.1;
+}
+.btnImage4:hover{
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.1;
+}
+.btnImage11:hover{
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.1;
+}
+.btnImage12:hover{
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.1;
+}
+.btnImage13:hover{
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.1;
+}
+.btnImage14:hover{
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.1;
+}
+.ImageDTT:hover{
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.1;
+}
+.ImageQNN:hover{
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.1;
+}
+.ImageDNN:hover{
+    -fx-scale-y: 1.1;
+    -fx-scale-x: 1.1;
+}

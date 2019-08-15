@@ -1,0 +1,9 @@
+
+CREATE TABLE BillAll
+(
+	idBill VARCHAR(10) PRIMARY KEY,
+	idEmploy_Bill VARCHAR(10) ,
+	DateCheckin varchar(50) ,
+	totalBill FLOAT,
+	FOREIGN KEY (idEmploy_Bill) REFERENCES dbo.Employ(idEmploy),
+)

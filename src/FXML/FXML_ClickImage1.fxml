@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.*?>
+<?import com.jfoenix.controls.*?>
+<?import javafx.scene.text.*?>
+<?import java.lang.*?>
+<?import java.util.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane id="AnchorPane" fx:id="paneImage001" prefHeight="483.0" prefWidth="701.0" style="-fx-background-color: #1C1C1C;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllerFXML.FXML_Image1">
+   <children>
+      <Button fx:id="ExitOne" layoutX="320.0" layoutY="430.0" mnemonicParsing="false" prefHeight="25.0" prefWidth="100.0" text="Exit" />
+      <Label layoutX="278.0" layoutY="26.0" text="New product" textFill="#eeeeee">
+         <font>
+            <Font size="37.0" />
+         </font>
+      </Label>
+      <Text fill="#eeeaea" layoutX="122.0" layoutY="351.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Frappuccino" wrappingWidth="144.0">
+         <font>
+            <Font name=".VnArialH Bold Italic" size="18.0" />
+         </font>
+      </Text>
+      <Text fill="#f5f2f2" layoutX="336.0" layoutY="150.0" strokeType="OUTSIDE" strokeWidth="0.0" text="*  Deliciously crafted drinks and great flavored food. The secret to a better life." wrappingWidth="364.53125">
+         <font>
+            <Font name="System Italic" size="21.0" />
+         </font>
+      </Text>
+      <Text fill="#f8f1f1" layoutX="370.0" layoutY="212.0" strokeType="OUTSIDE" strokeWidth="0.0" text="- Excellent coffee from all over the world. Drinks are crafted for you to explore and enjoy. We look forward to bringing you these products." wrappingWidth="296.5546875">
+         <font>
+            <Font name="System Italic" size="14.0" />
+         </font>
+      </Text>
+      <ImageView fitHeight="227.0" fitWidth="254.0" layoutX="66.0" layoutY="92.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/New.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="70.0" fitWidth="75.0" layoutX="197.0" layoutY="17.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/new-things.gif" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="103.0" fitWidth="213.0" layoutX="391.0" layoutY="315.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/Welcome1.gif" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
